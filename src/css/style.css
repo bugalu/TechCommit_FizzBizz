@@ -1,0 +1,19 @@
+body {
+  background: #fafafa;
+}
+
+body .container {
+  -ms-flex-align: start;
+  -ms-flex-pack: center;
+  -webkit-box-align: start;
+  -webkit-box-pack: center;
+  align-items: flex-start;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+}
+
+body .container .head {
+  color: palevioletred;
+}
